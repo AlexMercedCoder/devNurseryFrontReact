@@ -18,6 +18,7 @@ const App: React.FC = () => {
 
         <nav>
         <Link to="/">Home</Link>
+        <a href="https://mainblog.devNursery.com">Main Blog</a>
         <a href="https://member.devNursery.com">Blogging</a>
         <a href="http://blogs.devNursery.com">User Posts</a>
         <Link to="/learning">Free Learning</Link>
