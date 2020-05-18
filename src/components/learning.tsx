@@ -57,7 +57,7 @@ const Learning: React.FC = (props: object) => {
             url:
                 'https://www.youtube.com/watch?v=BTn36FhprnM&list=PLY6oTPmKnKbZaOObALdHSgGTZhne6Q-yJ',
             img:
-                'https://www.stickpng.com/assets/images/5847f289cef1014c0b5e486b.png',
+                'https://pbs.twimg.com/profile_images/993555605078994945/Yr-pWI4G_400x400.jpg',
         },
         {
             topic: 'Elixir 101',
@@ -191,14 +191,14 @@ const Learning: React.FC = (props: object) => {
         {
             topic: 'GraphQL/Apollo Server',
             url:
-                'https://www.youtube.com/watch?v=hsVKoMx8pGU&list=PLY6oTPmKnKbZ7XA4XFhxiVsg_Lu3dDKsK',
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbZ7XA4XFhxiVsg_Lu3dDKsK',
             img:
                 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png',
         },
         {
             topic: 'Typescript React',
             url:
-                'https://www.youtube.com/watch?v=e35HbJFzmj4&list=PLY6oTPmKnKbaL32w5whB8Dxvy_DgOT8Nd',
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbaL32w5whB8Dxvy_DgOT8Nd',
             img:
                 'https://miro.medium.com/max/1024/1*Ukhx76VQ8E6JXEW7xfIzSA.png',
         },
