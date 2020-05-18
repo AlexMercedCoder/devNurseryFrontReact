@@ -44,7 +44,9 @@ const App: React.FC = () => {
                     Application created by Alex Merced of AlexMercedCoder.com,
                     Created with ReactJS/Typescript
                     <br />
+                    <br />
                     Contact Alex Merced to be part of your new project at
+                    Alex@AlexMerced.dev
                 </footer>
             </Router>
         </div>
