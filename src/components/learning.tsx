@@ -274,6 +274,41 @@ const Learning: React.FC = (props: object) => {
             img:
                 'https://developerhowto.com/wp-content/uploads/2018/12/phyton-django.jpg',
         },
+        {
+            topic: 'Ruby on Rails',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbYlAqVHgzZl5lou54bizdbV',
+            img:
+                'https://swiftlet.co.th/wp-content/uploads/2019/05/What-is-Ruby-on-Rails-1-1.png',
+        },
+        {
+            topic: 'Go/Buffalo',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbbosLf7mDBjqxr2qBXUUBYk',
+            img:
+                'https://avatars2.githubusercontent.com/u/24794651?s=400&v=4',
+        },
+        {
+            topic: 'Postgres/SQL',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbYC24jbJwOmekvsraIV8Gv7',
+            img:
+                'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png',
+        },
+        {
+            topic: 'Tools (Bash, GIT, etc.)',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg',
+            img:
+                'https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/tools.png',
+        },
+        {
+            topic: 'Headless Development',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbYonuqTHD-RyTAHmWvM1-kU',
+            img:
+                'https://www.eficode.com/hs-fs/hubfs/headless-cms%20%282%29.jpg?width=1024&name=headless-cms%20%282%29.jpg',
+        },
     ];
 
     return (
