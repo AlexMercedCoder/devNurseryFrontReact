@@ -242,7 +242,7 @@ const Learning: React.FC = (props: object) => {
                 'https://pbs.twimg.com/profile_images/956929658175541249/Pdi35gut.jpg',
         },
         {
-            topic: 'ReasonML',
+            topic: 'ReasonML/OCAML',
             url:
                 'https://www.youtube.com/playlist?list=PLY6oTPmKnKbbwwLH1c7n-2prVeWzE2b8V',
             img:
@@ -308,6 +308,13 @@ const Learning: React.FC = (props: object) => {
                 'https://www.youtube.com/playlist?list=PLY6oTPmKnKbYonuqTHD-RyTAHmWvM1-kU',
             img:
                 'https://www.eficode.com/hs-fs/hubfs/headless-cms%20%282%29.jpg?width=1024&name=headless-cms%20%282%29.jpg',
+        },
+        {
+            topic: 'jQuery',
+            url:
+                'https://www.youtube.com/playlist?list=PLY6oTPmKnKbaK2r_zkLKf_6iHBW09_Ucc',
+            img:
+                'https://miro.medium.com/max/800/0*g3ns8QALNBBH7CBA.',
         },
     ];
 
