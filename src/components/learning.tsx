@@ -314,14 +314,14 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZtl3gTxPisijUGR3AnKw6D",
       img:
-        "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+        "https://library.kissclipart.com/20181207/bjw/kissclipart-java-powered-logo-clipart-java-development-kit-jav-39510e6f5fd15757.jpg",
     },
     {
       topic: "Java Spring",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKba48blxX8u8Xb7JOEwClGV6",
       img:
-        "https://library.kissclipart.com/20181207/bjw/kissclipart-java-powered-logo-clipart-java-development-kit-jav-39510e6f5fd15757.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJ5bi0SRdjIEoZmoHCOLq1FYYUWiWdXTMIaA&usqp=CAU",
     },
   ];
 
