@@ -323,6 +323,13 @@ const Learning: React.FC = (props: object) => {
       img:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJ5bi0SRdjIEoZmoHCOLq1FYYUWiWdXTMIaA&usqp=CAU",
     },
+    {
+      topic: "Ballerina",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbWQOA-j-uyf6swRqwP4Ehr",
+      img:
+        "https://pbs.twimg.com/profile_images/979486143723917312/9LDf87n9_400x400.jpg",
+    },
   ];
 
   return (
