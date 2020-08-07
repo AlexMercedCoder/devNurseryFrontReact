@@ -55,53 +55,53 @@ const Learning: React.FC = (props: object) => {
     {
       topic: "Dart 101",
       url:
-        "https://www.youtube.com/watch?v=BTn36FhprnM&list=PLY6oTPmKnKbZaOObALdHSgGTZhne6Q-yJ",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZaOObALdHSgGTZhne6Q-yJ",
       img:
         "https://pbs.twimg.com/profile_images/993555605078994945/Yr-pWI4G_400x400.jpg",
     },
     {
       topic: "Elixir 101",
       url:
-        "https://www.youtube.com/watch?v=MQYHu2GuRfU&list=PLY6oTPmKnKbYZhj8LsQ3yq1vn-HwlpkkS",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbYZhj8LsQ3yq1vn-HwlpkkS",
       img: "https://www.columbuselixir.com/images/elixir-logo.png",
     },
     {
       topic: "Swift 101",
       url:
-        "https://www.youtube.com/watch?v=ctughz7bbnQ&list=PLY6oTPmKnKbYn60pD3UYfYw7BzxGY2Do0",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbYn60pD3UYfYw7BzxGY2Do0",
       img:
         "http://static1.squarespace.com/static/558def25e4b0fc259f066636/5a49786bf9619ae3bb6a2564/59307f9b15cf7dadce1c0bfa/1564669693374/Swift_logo.png",
     },
     {
       topic: "Kotlin 101",
       url:
-        "https://www.youtube.com/watch?v=N5z2RDR9sk0&list=PLY6oTPmKnKba9Xg06DR67IxdppdKsQZ_s",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKba9Xg06DR67IxdppdKsQZ_s",
       img:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png",
     },
     {
       topic: "Ruby 101",
       url:
-        "https://www.youtube.com/watch?v=4yMGIgXcJJM&list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
       img:
         "https://blog.mwpreston.net/wp-content/uploads/2018/09/ruby-logo.png",
     },
     {
       topic: "Full Stack with KoaJS",
       url:
-        "https://www.youtube.com/watch?v=8_aWw7lfKKI&list=PLY6oTPmKnKbbF4t0Y9DcUVYi7f4kix7Qj",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbF4t0Y9DcUVYi7f4kix7Qj",
       img: "https://seeklogo.com/images/K/koa-logo-D494764315-seeklogo.com.png",
     },
     {
       topic: "StencilJS",
       url:
-        "https://www.youtube.com/watch?v=btQ7Whq8xcU&list=PLY6oTPmKnKbazpUTMcGmvMtgU5sr0Ip-V",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbazpUTMcGmvMtgU5sr0Ip-V",
       img: "https://www.javascripttuts.com/images/technologies/Stencil.png",
     },
     {
       topic: "SvelteJS",
       url:
-        "https://www.youtube.com/watch?v=Cu-JVd8MKaU&list=PLY6oTPmKnKbZpyj6WhUsjri1Tw_BO-obP",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZpyj6WhUsjri1Tw_BO-obP",
       img:
         "https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4_400x400.png",
     },
