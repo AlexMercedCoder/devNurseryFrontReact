@@ -330,6 +330,13 @@ const Learning: React.FC = (props: object) => {
       img:
         "https://pbs.twimg.com/profile_images/979486143723917312/9LDf87n9_400x400.jpg",
     },
+    {
+      topic: "Ruby Sinatra",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZn4pi2Wma0MmqRtD9SImJj",
+      img:
+        "https://cdn.glitch.com/project-avatar/7ea2383a-d0c2-4937-9f53-71c01f93d18b.png?2018-02-25T20:16:32.799Z",
+    },
   ];
 
   return (
