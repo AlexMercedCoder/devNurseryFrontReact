@@ -184,7 +184,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/watch?v=Z6ePfTDXonk&list=PLY6oTPmKnKbboGAL_-MineM-zcOblOm6V",
       img:
-        "https://pbs.twimg.com/profile_images/1149708719178993664/3Hb8W4aX_400x400.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     },
     {
       topic: "GraphQL/Apollo Server",
