@@ -337,6 +337,27 @@ const Learning: React.FC = (props: object) => {
       img:
         "https://cdn.glitch.com/project-avatar/7ea2383a-d0c2-4937-9f53-71c01f93d18b.png?2018-02-25T20:16:32.799Z",
     },
+    {
+      topic: "C",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaFlr8YPGokRA1CjJ20BE_b",
+      img:
+        "https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
+    },
+    {
+      topic: "C++",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaOEN-4vA_cZ5bqwysKCOGC",
+      img:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+    },
+    {
+      topic: "Rust",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbYPkf2AhsPbq_YGh3q7p4Aj",
+      img:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
+    },
   ];
 
   return (
