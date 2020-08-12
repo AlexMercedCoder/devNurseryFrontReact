@@ -358,6 +358,13 @@ const Learning: React.FC = (props: object) => {
       img:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
     },
+    {
+      topic: "GatsbyJS",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZgxwVjSuk-SkgoFNuMBWL_",
+      img:
+        "https://javascriptforwp.com/wp-content/uploads/2019/03/badge-gatsby.png",
+    },
   ];
 
   return (
