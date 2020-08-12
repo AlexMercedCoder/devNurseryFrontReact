@@ -365,6 +365,12 @@ const Learning: React.FC = (props: object) => {
       img:
         "https://javascriptforwp.com/wp-content/uploads/2019/03/badge-gatsby.png",
     },
+    {
+      topic: "Raku/Perl 6",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbMOdyKsY9U2KS4BCOMmAzR",
+      img: "https://www.raku.org/camelia-logo.png",
+    },
   ];
 
   return (
