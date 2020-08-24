@@ -48,6 +48,18 @@ const App: React.FC = () => {
           Contact Alex Merced to be part of your new project at
           Alex@AlexMerced.dev
         </footer>
+        <hr/>
+        <div id="friends">
+          <h1>Friends of devNursery</h1>
+          <div>
+            <a href="http://www.butterCMS.com">
+              <img
+                className="friend"
+                src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH"
+              />
+            </a>
+          </div>
+        </div>
       </Router>
     </div>
   );

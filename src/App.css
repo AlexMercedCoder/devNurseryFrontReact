@@ -1,27 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap");
 
 #root {
-    --maroon: #A5243D;
-    --babyblue: #CEE0DC;
-    --lightpurp: #AFAAB9;
+  --maroon: #a5243d;
+  --babyblue: #cee0dc;
+  --lightpurp: #afaab9;
 }
 
-.App {padding: 20px;}
+.App {
+  padding: 20px;
+}
 
-.logo {text-align: left; font-size: 300%; width: 100%; margin: 10px auto; font-family: 'Major Mono Display', monospace;}
+.logo {
+  text-align: left;
+  font-size: 300%;
+  width: 100%;
+  margin: 10px auto;
+  font-family: "Major Mono Display", monospace;
+}
 
-.logo span {color: var(--maroon);}
+.logo span {
+  color: var(--maroon);
+}
 
-nav {padding: 5px; background-color: var(--babyblue); display: flex; justify-content: space-around; flex-wrap: wrap;}
+nav {
+  padding: 5px;
+  background-color: var(--babyblue);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-nav Link, nav a {color: black; padding: 10px; text-transform: uppercase; font-size: 150%;
-    text-decoration: none; transition: background-color .4s, color .4s;}
+nav Link,
+nav a {
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 150%;
+  text-decoration: none;
+  transition: background-color 0.4s, color 0.4s;
+}
 
-nav Link:hover, nav a:hover{background-color: var(--lightpurp); color: var(--maroon);}
+nav Link:hover,
+nav a:hover {
+  background-color: var(--lightpurp);
+  color: var(--maroon);
+}
 
-
-footer {text-align: center; text-transform: uppercase; font-weight: 900; margin: 20px;}
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 20px;
+}
 
 @media only screen and (max-width: 400px) {
- .logo {font-size: 200%; text-align: center;}
+  .logo {
+    font-size: 200%;
+    text-align: center;
+  }
+}
+
+#friends {
+  text-align: center;
+
+}
+
+#friends > div {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.friend {
+  display: block;
+  width: 150px;
 }
