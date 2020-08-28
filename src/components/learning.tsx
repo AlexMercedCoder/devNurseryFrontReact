@@ -140,7 +140,7 @@ const Learning: React.FC = (props: object) => {
     {
       topic: "React",
       url:
-        "https://www.youtube.com/watch?v=SZxyYKhAvQQ&list=PLY6oTPmKnKbZeKlNGxOrL2Crl-tm1bxbJ",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbba6LlpF7kcnsyWdlwePt_V",
       img:
         "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     },
@@ -156,7 +156,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/watch?v=urFkrlRGnDI&list=PLY6oTPmKnKbZXeMjA3ngkpE_4puPstrLT",
       img:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+        "https://www.ajaypalcheema.com/content/images/2020/02/CSS.3-1.svg",
     },
     {
       topic: "CircleCI/Jest",
