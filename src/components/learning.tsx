@@ -18,6 +18,13 @@ const Learning: React.FC = (props: object) => {
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
     },
     {
+      topic: "Debugging/Testing Javascript",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbRBom0Txvg28C6EySkR6Vq",
+      img:
+        "https://keluro.com/images/Blog/Debug.jpg",
+    },
+    {
       topic: "Python 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaTvgXqNCRXcKnqbO5j2oQn",
