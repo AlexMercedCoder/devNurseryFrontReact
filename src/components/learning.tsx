@@ -378,6 +378,12 @@ const Learning: React.FC = (props: object) => {
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbMOdyKsY9U2KS4BCOMmAzR",
       img: "https://www.raku.org/camelia-logo.png",
     },
+    {
+      topic: "Other Languages",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbGEJLfi6qkHkMp6wGaTkJh",
+      img: "https://cdn-images-1.medium.com/max/1000/0*-1GbACzhUWimo-IR",
+    },
   ];
 
   return (
