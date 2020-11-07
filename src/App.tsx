@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Main from "./components/main";
 import Learning from "./components/learning";
+import Cheatsheets from "./components/cheatsheets";
 import Tech from "./components/tech";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/learning">Video Tutorials</Link>
+          <Link to="/cheatsheets">Cheatsheets</Link>
           <a href="https://tuts.alexmercedcoder.com/">Blog Tutorials</a>
           <Link to="/tech">Technology List</Link>
           <a href="https://member.devnursery.com/">Members</a>
@@ -24,7 +26,6 @@ const App: React.FC = () => {
             Slack Community
           </a>
           <a href="https://discord.gg/hkdrPwX">Discord Community</a>
-          <a href="https://spectrum.chat/devnursery">Spectrum Community</a>
         </nav>
 
         <div className="container">
@@ -34,6 +35,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/learning">
               <Learning />
+            </Route>
+            <Route path="/cheatsheets">
+              <Cheatsheets />
             </Route>
             <Route path="/tech">
               <Tech />
@@ -48,7 +52,7 @@ const App: React.FC = () => {
           Contact Alex Merced to be part of your new project at
           Alex@AlexMerced.dev
         </footer>
-        <hr/>
+        <hr />
         <div id="friends">
           <h1>Friends of devNursery</h1>
           <div>
@@ -56,6 +60,7 @@ const App: React.FC = () => {
               <img
                 className="friend"
                 src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH"
+                alt="butter CMS"
               />
             </a>
           </div>
