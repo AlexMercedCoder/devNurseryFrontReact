@@ -26,6 +26,7 @@ const App: React.FC = () => {
             Slack Community
           </a>
           <a href="https://discord.gg/hkdrPwX">Discord Community</a>
+          <a href="https://teechip.com/devNursery1">Merch</a>
         </nav>
 
         <div className="container">
