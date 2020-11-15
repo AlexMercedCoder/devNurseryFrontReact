@@ -103,7 +103,7 @@ const Cheatsheets: React.FC = (props: object) => {
     <>
       <div className="learning">
         {cheatsheets.map((topic) => (
-          <Topic topic={topic} />
+          <Topic topic={topic} label="View PDF" />
         ))}
       </div>
       <a href="https://www.twitter.com/alexmercedcoder">

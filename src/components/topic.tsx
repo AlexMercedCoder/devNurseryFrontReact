@@ -7,6 +7,7 @@ interface TopicProps {
     url: string;
     img: string;
   };
+  label: string;
 }
 
 const Topic: React.FC<TopicProps> = (props) => {
@@ -24,7 +25,7 @@ const Topic: React.FC<TopicProps> = (props) => {
       <h1>{props.topic.topic}</h1>
       <img src={props.topic.img} alt={props.topic.topic} />
       <h2>
-        <a href={props.topic.url}> Watch Videos</a>
+        <a href={props.topic.url}> {props.label}</a>
       </h2>
     </div>
   );
