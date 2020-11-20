@@ -21,8 +21,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Debugging/Testing Javascript",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbRBom0Txvg28C6EySkR6Vq",
-      img:
-        "https://keluro.com/images/Blog/Debug.jpg",
+      img: "https://keluro.com/images/Blog/Debug.jpg",
     },
     {
       topic: "Python 101",
@@ -115,7 +114,7 @@ const Learning: React.FC = (props: object) => {
     {
       topic: "VueJS",
       url:
-        "https://www.youtube.com/watch?v=_EwtLQ7BZkc&list=PLY6oTPmKnKbbsEAIDfFAlhAVbSCIt2Bxx",
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbsEAIDfFAlhAVbSCIt2Bxx",
       img: "https://vuejs.org/images/logo.png",
     },
     {
@@ -162,8 +161,7 @@ const Learning: React.FC = (props: object) => {
       topic: "CSS/SCSS",
       url:
         "https://www.youtube.com/watch?v=urFkrlRGnDI&list=PLY6oTPmKnKbZXeMjA3ngkpE_4puPstrLT",
-      img:
-        "https://www.ajaypalcheema.com/content/images/2020/02/CSS.3-1.svg",
+      img: "https://www.ajaypalcheema.com/content/images/2020/02/CSS.3-1.svg",
     },
     {
       topic: "CircleCI/Jest",
@@ -390,7 +388,7 @@ const Learning: React.FC = (props: object) => {
     <>
       <div className="learning">
         {playlists.map((topic) => (
-          <Topic topic={topic} label="Watch Video"/>
+          <Topic topic={topic} label="Watch Video" />
         ))}
       </div>
       <a href="https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ/playlists">
