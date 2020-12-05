@@ -5,6 +5,12 @@ import Topic from "./topic";
 const Cheatsheets: React.FC = (props: object) => {
   const cheatsheets = [
     {
+      topic: "Becoming a Coder Guide",
+      url:
+        "https://github.com/AlexMercedCoder/GuideToBecomingACoder",
+      img: "https://miro.medium.com/max/284/0*ce6lXk0cmGyilq1K.",
+    },
+    {
       topic: "Javascript",
       url:
         "https://www.scribd.com/document/483070482/DevNursery-Cheatsheet-Javascript",
