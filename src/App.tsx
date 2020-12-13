@@ -6,16 +6,20 @@ import Cheatsheets from "./components/cheatsheets";
 import Tech from "./components/tech";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+import {FaVideo, FaBlog, FaFilePdf, FaSlackHash, FaDiscord} from "react-icons/fa"
+
 const App: React.FC = () => {
   return (
     <div className="App">
       <Router>
-        <div className="logo">
+      <Link to="/"><div className="logo">
           {" "}
           <span>dev</span>Nursery{" "}
-        </div>
+        </div> </Link>
+        <hr id="mobileline"/>
 
-        <nav>
+        <nav id="desktop">
+          
           <Link to="/">Home</Link>
           <Link to="/learning">Video Tutorials</Link>
           <Link to="/cheatsheets">Cheatsheets</Link>
@@ -27,6 +31,16 @@ const App: React.FC = () => {
           </a>
           <a href="https://discord.gg/hkdrPwX">Discord Community</a>
           <a href="https://teechip.com/devNursery1">Merch</a>
+        </nav>
+
+        <nav id="mobile">
+          <Link to="/learning"><FaVideo/></Link>
+          <Link to="/cheatsheets"><FaFilePdf/></Link>
+          <a href="https://tuts.alexmercedcoder.com/"><FaBlog/></a>
+          <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
+            <FaSlackHash/>
+          </a>
+          <a href="https://discord.gg/hkdrPwX"><FaDiscord/></a>
         </nav>
 
         <div className="container">

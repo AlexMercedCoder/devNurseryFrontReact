@@ -8,3 +8,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#mobile {
+  display: none;
+}
+
+#mobileline {
+  display: none;
+}
+
+.App a {
+  color: black;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px){
+  #desktop {
+    display: none;
+  }
+
+  .logo {
+    text-align: center !important;
+  }
+
+  #mobileline {
+    display: block;
+    color: crimson;
+    background-color: crimson;
+  }
+
+  #mobile {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width:80%;
+    left:8.5%;
+    border: 3px solid crimson;
+  }
+}
