@@ -34,27 +34,42 @@ const Tech: React.FC = (props: object) => {
         "Haxe",
         "Groovy",
         "F#",
-        "VB.NET"
-      ]
+        "VB.NET",
+        "ReScript/ReasonML",
+        "Erlang",
+        "Haskell",
+        "Scala",
+        "Scheme",
+        "Nim",
+        "Zig",
+        "Bosque",
+        "Perl",
+        "Raku",
+      ],
     },
     {
       type: "Frontend Frameworks",
-      includes: ["React", "Angular", "Vue", "Svelte", "Stencil", "Ember"]
+      includes: ["React", "Angular", "Vue", "Svelte", "Stencil", "Ember"],
     },
     {
       type: "Backend Frameworks",
       includes: [
         "Express(JS)",
         "Koa(JS)",
+        "Fastify(JS)",
         "FoalTS(JS/TS)",
         "Adonis(JS)",
         "Next(JS)",
         "Nuxt(JS)",
         "Nest(JS)",
+        "Apollo Server(JS)",
         "Django(Python)",
         "Flask(Python)",
         "Bottle(Python)",
+        "FastAPI (Python)",
         "Buffalo(GO)",
+        "Revel(GO)",
+        "Echo(GO)",
         "Spring(Java)",
         "Laravel(PHP)",
         "Symphony(PHP)",
@@ -65,8 +80,8 @@ const Tech: React.FC = (props: object) => {
         "Rocket(Rust)",
         "Rails(Ruby)",
         "Sinatra(Ruby)",
-        "Apollo Server(JS)"
-      ]
+        "Spring (Java)",
+      ],
     },
     {
       type: "Databases",
@@ -77,22 +92,43 @@ const Tech: React.FC = (props: object) => {
         "DynamoDB",
         "MariaDB",
         "Scylla",
-        "SQLite"
-      ]
+        "SQLite",
+        "Neo4J",
+        "FaunaDB",
+        "FireStore",
+        "Redis",
+        "ElasticSearch",
+        "Cassandra",
+      ],
     },
     {
       type: "Cloud Providers",
-      includes: ["AWS", "Azure", "gCloud"]
-    }
+      includes: ["AWS", "Azure", "gCloud", "Linode", "DigitalOcean", "Vultr"],
+    },
+    {
+      type: "Static Site Generators",
+      includes: [
+        "Gatsby",
+        "Next",
+        "Gridsome",
+        "Nuxt",
+        "Scully",
+        "JungleJS",
+        "Hugo",
+        "Jekyll",
+        "Plenti",
+        "Elder.JS",
+      ],
+    },
   ];
 
   return (
     <div className="tech">
-      {techData.map(tech => (
+      {techData.map((tech) => (
         <div className="type">
           <h1>{tech.type}</h1>
           <ul>
-            {tech.includes.map(item => (
+            {tech.includes.map((item) => (
               <li>{item}</li>
             ))}
           </ul>

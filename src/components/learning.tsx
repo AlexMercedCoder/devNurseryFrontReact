@@ -141,7 +141,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Full Stack with FoalTS",
       url:
         "https://www.youtube.com/watch?v=mvoBeTdMFUE&list=PLY6oTPmKnKbY6v7zR9h1INfywh-qFLSQ_",
-      img: "https://foalts.org/assets/img/logo_400.png",
+      img: "https://pbs.twimg.com/profile_images/1121084912268980226/hJ5hyxhy.png",
     },
     {
       topic: "React",
