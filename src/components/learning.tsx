@@ -141,7 +141,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Full Stack with FoalTS",
       url:
         "https://www.youtube.com/watch?v=mvoBeTdMFUE&list=PLY6oTPmKnKbY6v7zR9h1INfywh-qFLSQ_",
-      img: "https://pbs.twimg.com/profile_images/1121084912268980226/hJ5hyxhy.png",
+      img: "https://pbs.twimg.com/profile_images/1354691112204722176/1zRlhoFC_400x400.pngg",
     },
     {
       topic: "React",
@@ -253,7 +253,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Crystal",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZZBx6Z4uQ2vTUic2mBT5rw",
-      img: "https://crystal-lang.org/images/icon.png",
+      img: "https://4.bp.blogspot.com/-nFOitJOm3iM/WE5YG-fJQbI/AAAAAAAAAGU/P0I4HQizQA8SH9kXB5_o8oGGS2Isn_gDgCLcB/s1600/kemal-building-lightning-fast-web-applications-with-crystal-6-638.jpg",
     },
     {
       topic: "Express & Express-React-Views",
