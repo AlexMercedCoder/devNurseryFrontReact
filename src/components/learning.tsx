@@ -8,7 +8,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Javascript 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3",
-      img: "https://cdn.worldvectorlogo.com/logos/javascript.svg",
+      img: "https://html5hive.org/wp-content/uploads/2014/06/js_800x800-619x619.jpg.webp",
     },
     {
       topic: "HTML/CSS/JS",
@@ -141,7 +141,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Full Stack with FoalTS",
       url:
         "https://www.youtube.com/watch?v=mvoBeTdMFUE&list=PLY6oTPmKnKbY6v7zR9h1INfywh-qFLSQ_",
-      img: "https://pbs.twimg.com/profile_images/1354691112204722176/1zRlhoFC_400x400.pngg",
+      img: "https://res.cloudinary.com/dithdroai/image/upload/v1613928000/photos/foal_jrsdns.png",
     },
     {
       topic: "React",
