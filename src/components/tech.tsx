@@ -48,8 +48,9 @@ const Tech: React.FC = (props: object) => {
       ],
     },
     {
-      type: "Frontend Frameworks",
-      includes: ["React", "Angular", "Vue", "Svelte", "Stencil", "Ember"],
+      type: "Frontend JS Frameworks",
+      includes: ["React", "Angular", "Vue", "Svelte", "Stencil", "SolidJS", "RiotJS", "Alpine", "Lit-element", 
+      "Mithril", "Ember"],
     },
     {
       type: "Backend Frameworks",
@@ -59,8 +60,6 @@ const Tech: React.FC = (props: object) => {
         "Fastify(JS)",
         "FoalTS(JS/TS)",
         "Adonis(JS)",
-        "Next(JS)",
-        "Nuxt(JS)",
         "Nest(JS)",
         "Apollo Server(JS)",
         "Django(Python)",
@@ -99,11 +98,14 @@ const Tech: React.FC = (props: object) => {
         "Redis",
         "ElasticSearch",
         "Cassandra",
+        "Neo4J",
+        "dGraph",
+        "Gun.io"
       ],
     },
     {
       type: "Cloud Providers",
-      includes: ["AWS", "Azure", "gCloud", "Linode", "DigitalOcean", "Vultr"],
+      includes: ["AWS", "Azure", "gCloud", "Linode", "DigitalOcean", "Vultr", "Render" ],
     },
     {
       type: "Static Site Generators",
@@ -118,6 +120,10 @@ const Tech: React.FC = (props: object) => {
         "Jekyll",
         "Plenti",
         "Elder.JS",
+        "Astro",
+        "Eleventy",
+        "Jekyll",
+        "Hugo"
       ],
     },
   ];

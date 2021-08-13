@@ -8,7 +8,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Javascript 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3",
-      img: "https://html5hive.org/wp-content/uploads/2014/06/js_800x800-619x619.jpg.webp",
+      img: "https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png",
     },
     {
       topic: "HTML/CSS/JS",
@@ -63,7 +63,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZaOObALdHSgGTZhne6Q-yJ",
       img:
-        "https://pbs.twimg.com/profile_images/993555605078994945/Yr-pWI4G_400x400.jpg",
+        "https://seeklogo.com/images/D/dart-logo-FDA1939EC4-seeklogo.com.png",
     },
     {
       topic: "Elixir 101",
@@ -83,7 +83,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKba9Xg06DR67IxdppdKsQZ_s",
       img:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png",
+        "https://www.clipartmax.com/png/small/238-2381243_safeness-kotlin-android-logo.png",
     },
     {
       topic: "Ruby 101",

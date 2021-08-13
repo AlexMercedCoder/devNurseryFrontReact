@@ -14,7 +14,7 @@ const Cheatsheets: React.FC = (props: object) => {
       topic: "Javascript",
       url:
         "https://www.scribd.com/document/483070482/DevNursery-Cheatsheet-Javascript",
-      img: "https://cdn.worldvectorlogo.com/logos/javascript.svg",
+      img: "https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png",
     },
     {
       topic: "Python",
@@ -40,7 +40,7 @@ const Cheatsheets: React.FC = (props: object) => {
       url:
         "https://www.scribd.com/document/483168290/DevNursery-Cheatsheet-Dart",
       img:
-        "https://pbs.twimg.com/profile_images/993555605078994945/Yr-pWI4G_400x400.jpg",
+        "https://seeklogo.com/images/D/dart-logo-FDA1939EC4-seeklogo.com.png",
     },
     {
       topic: "Swift",
@@ -54,7 +54,7 @@ const Cheatsheets: React.FC = (props: object) => {
       url:
         "https://www.scribd.com/document/483305342/devNursery-Cheatsheet-Kotlin",
       img:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png",
+        "https://www.clipartmax.com/png/small/238-2381243_safeness-kotlin-android-logo.png",
     },
     {
       topic: "Ruby",

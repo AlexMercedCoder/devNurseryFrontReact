@@ -25,7 +25,6 @@ const App: React.FC = () => {
           <Link to="/cheatsheets">Cheatsheets</Link>
           <a href="https://tuts.alexmercedcoder.com/">Blog Tutorials</a>
           <Link to="/tech">Technology List</Link>
-          <a href="https://member.devnursery.com/">Members</a>
           <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
             Slack Community
           </a>
