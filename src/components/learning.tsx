@@ -69,7 +69,7 @@ const Learning: React.FC = (props: object) => {
       topic: "Elixir 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbYZhj8LsQ3yq1vn-HwlpkkS",
-      img: "https://www.columbuselixir.com/images/elixir-logo.png",
+      img: "https://avatars.githubusercontent.com/u/1481354?s=280&v=4",
     },
     {
       topic: "Swift 101",
@@ -91,6 +91,13 @@ const Learning: React.FC = (props: object) => {
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
       img:
         "https://blog.mwpreston.net/wp-content/uploads/2018/09/ruby-logo.png",
+    },
+    {
+      topic: "Scala 101",
+      url:
+        "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
+      img:
+        "https://youtube.com/playlist?list=PLY6oTPmKnKbYj5195RSNJHCb9myXyThYZ",
     },
     {
       topic: "Full Stack with KoaJS",
