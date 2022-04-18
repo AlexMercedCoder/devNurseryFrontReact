@@ -14,12 +14,12 @@
     "titleBar.border": "#dd0531",
     "titleBar.inactiveBackground": "#dd053199",
     "titleBar.inactiveForeground": "#e7e7e799",
-    "tab.activeBorder": "blue",
-    "statusBar.background": "blue",
-    "statusBar.foreground": "#ffffff",
     "sash.hoverBorder": "#fa1b49",
     "statusBarItem.remoteBackground": "#dd0531",
-    "statusBarItem.remoteForeground": "#e7e7e7"
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "blue",
+    "statusBar.background": "blue",
+    "statusBar.foreground": "#ffffff"
   },
   "peacock.color": "#dd0531"
 }
