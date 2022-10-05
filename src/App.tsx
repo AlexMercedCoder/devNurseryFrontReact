@@ -6,24 +6,31 @@ import Cheatsheets from "./components/cheatsheets";
 import Tech from "./components/tech";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import {FaVideo, FaBlog, FaFilePdf, FaSlackHash, FaDiscord} from "react-icons/fa"
+import {
+  FaVideo,
+  FaBlog,
+  FaFilePdf,
+  FaSlackHash,
+  FaDiscord,
+} from "react-icons/fa";
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <Router>
-      <Link to="/"><div className="logo">
-          {" "}
-          <span>dev</span>Nursery{" "}
-        </div> </Link>
-        <hr id="mobileline"/>
+        <Link to="/">
+          <div className="logo">
+            {" "}
+            <span>dev</span>Nursery{" "}
+          </div>{" "}
+        </Link>
+        <hr id="mobileline" />
 
         <nav id="desktop">
-          
           <Link to="/">Home</Link>
           <Link to="/learning">Video Tutorials</Link>
           <Link to="/cheatsheets">Cheatsheets</Link>
-          <a href="https://tuts.alexmercedcoder.com/">Blog Tutorials</a>
+          <a href="https://tuts.alexmercedcoder.dev/">Blog Tutorials</a>
           <Link to="/tech">Technology List</Link>
           <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
             Slack Community
@@ -33,13 +40,21 @@ const App: React.FC = () => {
         </nav>
 
         <nav id="mobile">
-          <Link to="/learning"><FaVideo/></Link>
-          <Link to="/cheatsheets"><FaFilePdf/></Link>
-          <a href="https://tuts.alexmercedcoder.com/"><FaBlog/></a>
-          <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
-            <FaSlackHash/>
+          <Link to="/learning">
+            <FaVideo />
+          </Link>
+          <Link to="/cheatsheets">
+            <FaFilePdf />
+          </Link>
+          <a href="https://tuts.alexmercedcoder.dev/">
+            <FaBlog />
           </a>
-          <a href="https://discord.gg/hkdrPwX"><FaDiscord/></a>
+          <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
+            <FaSlackHash />
+          </a>
+          <a href="https://discord.gg/hkdrPwX">
+            <FaDiscord />
+          </a>
         </nav>
 
         <div className="container">
@@ -59,7 +74,7 @@ const App: React.FC = () => {
           </Switch>
         </div>
         <footer>
-          Application created by Alex Merced of AlexMercedCoder.com, Created
+          Application created by Alex Merced of alexmercedcoder.dev, Created
           with ReactJS/Typescript
           <br />
           <br />
