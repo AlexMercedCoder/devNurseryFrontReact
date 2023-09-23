@@ -395,7 +395,7 @@ const Learning: React.FC = (props: object) => {
     <>
       <div className="learning">
         {playlists.map((topic) => (
-          <Topic topic={topic} label="Watch Video" />
+          <Topic topic={topic} label="Watch Videos" />
         ))}
       </div>
       <a href="https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ/playlists">
