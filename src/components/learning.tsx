@@ -28,14 +28,14 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaTvgXqNCRXcKnqbO5j2oQn",
       img:
-        "https://pbs.twimg.com/profile_images/439154912719413248/pUBY5pVj_400x400.png",
+        "https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
     },
     {
       topic: "C# 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaQfi5KyW7IexlIsIKD1Oqb",
       img:
-        "https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
+        "https://miro.medium.com/v2/resize:fit:1200/1*w0u2TZpEp3WfKMrlL5jTSw.png",
     },
     {
       topic: "GO 101",
