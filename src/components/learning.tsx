@@ -35,7 +35,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbaQfi5KyW7IexlIsIKD1Oqb",
       img:
-        "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
+        "https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
     },
     {
       topic: "GO 101",
@@ -56,7 +56,7 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbfwjU1ToZlUWCinxmFqlIp",
       img:
-        "https://www.mpsd.org/cms/lib/MA02212716/Centricity/Domain/99/Computer%20Science%20Banner%20Small.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrezQF5Sl00_vORsL4NBk7Sh2ZgKD7p8MqHA&usqp=CAU",
     },
     {
       topic: "Dart 101",
@@ -90,14 +90,14 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
       img:
-        "https://blog.mwpreston.net/wp-content/uploads/2018/09/ruby-logo.png",
+        "https://cdn-icons-png.flaticon.com/512/919/919842.png",
     },
     {
       topic: "Scala 101",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e",
       img:
-        "https://youtube.com/playlist?list=PLY6oTPmKnKbYj5195RSNJHCb9myXyThYZ",
+        "https://cdn-icons-png.flaticon.com/512/919/919834.png",
     },
     {
       topic: "Full Stack with KoaJS",
@@ -340,14 +340,14 @@ const Learning: React.FC = (props: object) => {
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbbWQOA-j-uyf6swRqwP4Ehr",
       img:
-        "https://pbs.twimg.com/profile_images/979486143723917312/9LDf87n9_400x400.jpg",
+        "https://wso2.gallerycdn.vsassets.io/extensions/wso2/ballerina/4.5.23081103/1691985666075/Microsoft.VisualStudio.Services.Icons.Default",
     },
     {
       topic: "Ruby Sinatra",
       url:
         "https://www.youtube.com/playlist?list=PLY6oTPmKnKbZn4pi2Wma0MmqRtD9SImJj",
       img:
-        "https://cdn.glitch.com/project-avatar/7ea2383a-d0c2-4937-9f53-71c01f93d18b.png?2018-02-25T20:16:32.799Z",
+        "https://sinatrarb.com/sinatra.github.com/images/logo.png",
     },
     {
       topic: "C",
