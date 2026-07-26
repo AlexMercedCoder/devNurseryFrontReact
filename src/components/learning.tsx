@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./learning.css";
 import Topic from "./topic";
 
 const Learning: React.FC = (props: object) => {
+  useEffect(() => {
+    document.title = "Video Tutorials | devNursery";
+  }, []);
+
   const playlists = [
     {
       topic: "Javascript 101",

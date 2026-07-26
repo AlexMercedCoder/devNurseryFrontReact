@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./tech.css";
 
 const Tech: React.FC = (props: object) => {
+  useEffect(() => {
+    document.title = "Technology List | devNursery";
+  }, []);
+
   const techData = [
     {
       type: "Languages",

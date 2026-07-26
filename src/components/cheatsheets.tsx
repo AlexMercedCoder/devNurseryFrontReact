@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./learning.css";
 import Topic from "./topic";
 
 const Cheatsheets: React.FC = (props: object) => {
+  useEffect(() => {
+    document.title = "Cheatsheets | devNursery";
+  }, []);
+
   const cheatsheets = [
     {
       topic: "Becoming a Coder Guide",

@@ -77,3 +77,20 @@ footer {
   display: block;
   width: 150px;
 }
+
+#footerlinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+#footerlinks a {
+  color: var(--maroon);
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+#footerlinks a:hover {
+  text-decoration: underline;
+}
